@@ -1,0 +1,115 @@
+.anchor{
+    font-size: 35px;
+    margin-left: auto;
+
+}
+.ss{
+    margin: 25px;
+    position: relative;
+}
+.ss:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.ss::after{
+    content: "";
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color:rgb(24, 1, 1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.ss:hover::after{
+    opacity: 1;
+}
+.home{
+    background-image: url("https://in.images.search.yahoo.com/images/view;_ylt=AwrKDpuhvsNl7nMfh7y9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzNmMWU5MWViMjQzOTZjZjg0NjAwNDEyZDlhZjUyZDBhBGdwb3MDNARpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Ddecent%2Bbackground%26type%3DE210IN826G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D4&w=1920&h=1080&imgurl=www.elegantthemes.com%2Fblog%2Fwp-content%2Fuploads%2F2013%2F09%2Fbg-1-full.jpg&rurl=http%3A%2F%2Fwww.elegantthemes.com%2Fblog%2Ffreebie-of-the-week%2F20-free-background-images-for-wordpress&size=488.6KB&p=decent+background&oid=3f1e91eb24396cf84600412d9af52d0a&fr2=piv-web&fr=mcafee&tt=20+Stunning+Background+Images+To+Use+In+Your+WordPress+Website%2C+For+...&b=0&ni=21&no=4&ts=&tab=organic&sigr=fo4c_Ia.feF4&sigb=SPYHUpHAOvFv&sigi=6N77MI84IzCn&sigt=UNU3AaqoLLO9&.crumb=/KYnh2b2q7y&fr=mcafee&fr2=piv-web&type=E210IN826G0");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+    margin-left: 8%;
+    margin-top: 17%;
+}
+
+.info h1{
+    font-size: 90px;
+    color: rgb(36,32,30);
+    font-family: Georgia, serif;
+}
+
+.info h2{
+    font-size:30px;
+    letter-spacing: px;
+    line-height: 70px;
+    font-family: sans-serif;;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+}
+
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+.boy{
+  box-shadow: #000;
+}
+.image:hover .boy{
+    left: 50%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+
